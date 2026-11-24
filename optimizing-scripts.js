@@ -8,4 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
             header.style.backgroundColor = '';
         }
     });
+
+    console.log('JS is loaded!');
 });
