@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         element.style.backgroundColor = '#245b91';
         element.style.color = '#ffffff';
         element.style.padding = '15px';
+        element.style.display = 'none';
     });
 
 });
