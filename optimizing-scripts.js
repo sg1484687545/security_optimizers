@@ -1,13 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const header = document.querySelector('header');
-    if (!header) return;
-    window.addEventListener('scroll', function () {
-        if (window.scrollY > 50) {
-            header.style.backgroundColor = '#245b91';
-        } else {
-            header.style.backgroundColor = '';
-        }
+
+    document.querySelectorAll('header.hdr.fl-hdr-ready').forEach(function (element) {
+        element.style.backgroundColor = '#245b91';
+        element.style.color = '#ffffff';
+        element.style.padding = '15px';
     });
 
-    console.log('JS is loaded!');
 });
